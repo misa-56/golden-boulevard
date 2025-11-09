@@ -221,9 +221,9 @@
             </div>
             <div class="home_title">
                 <div class="container-fluid">
-                    <div class="row gutter-0">
-                        <div class="col-lg-5 col-md-10 col-sm-12 text-blur-bg">
-                            <h1 class="section-title animated revealText">Tâm điểm phồn vinh</h1>
+                    <div class="row gutter-0 mg-title">
+                        <div class="col-lg-5 col-md-10 col-sm-12 text-blur-bg-dark p-3">
+                            <h1 class="section-title animated revealText" style="color: rgb(232, 209, 177);">Tâm điểm phồn vinh</h1>
                             <div class="animated revealText delay-250">Golden Boulevard - khu đô thị hiện đại tại trung tâm TP mới Bình Dương, với 168 nhà phố 3-4 mặt tiền, tiện ích cao cấp, vị trí đắc địa, hứa hẹn tiềm năng đầu tư bền vững và kinh doanh vượt trội.</div>
                         </div>
 
@@ -248,6 +248,13 @@
                     </div>
                 </div>
             </div>
+            <style>
+                @media (max-width: 991px) {
+                    .mg-title {
+                        margin-top: 50px;
+                    }
+                }
+            </style>
             <div class="form-banner w-form">
                 <h2>Đăng ký tư vấn</h2>
                 <p class="des-form">Quý khách vui lòng điền thông tin bên dưới để chúng tôi tư vấn và gửi những thông
@@ -336,18 +343,79 @@
         </section>
         <!-- Tong quan -->
         <section class=" animatedParent animateOnce fp-noscroll fp-auto-height-responsive section-cover section-overview section-light section-co opac" data-anchor="tong-quan" data-title="Tổng quan" 
-            style="
-                background: linear-gradient(to right, rgba(0, 77, 41, 0.95) 0%, rgba(0, 128, 64, 0.7) 40%, rgba(0, 150, 90, 0.2) 80%, transparent 100%), url(https://misa-56.github.io/golden-boulevard/images/golden-boulevard/golden-boulevard5.jpg) center center / cover no-repeat;">
-            <div class="container-fluid section-padding-top">
-                <div class="col-lg-8 w-overview">
-                    <h2 class="section-title title-white animated revealText revealText">Tổng quan</h2>
+            style="background: url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/gold-background-light.jpg') center top no-repeat;">
+            <div class="section-padding-top row">
+                <div class="col-lg-4 div-hide" style="align-items: center;">
+                    <div id="IMAGE242">
+                        <div class="tong-quan">
+                            <div class="tq-image-background"></div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    @media (min-width: 768px) {
+                        #IMAGE242 {
+                            left: 203px;
+                        }
+                    }
+                    #IMAGE242 {
+                        width: 430.667px;
+                        height: 646px;
+                        position: relative;
+                    }
+                    #IMAGE242.ladi-animation > .tong-quan {
+                        animation-name: fadeInLeft;
+                        animation-delay: 1s;
+                        animation-duration: 2s;
+                        animation-iteration-count: 1;
+                    }
+                    #IMAGE242 > .tong-quan {
+                        border-radius: 16px;
+                        border: 4px solid #fff;
+                    }
+
+                    .tong-quan {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        overflow: hidden;
+                    }
+                    @media (min-width: 768px) {
+                        #IMAGE242 > .tong-quan > .tq-image-background {
+                            width: 1165.06px;
+                            height: 656px;
+                            top: -4px;
+                            left: -419px;
+                            background-image: url('https://misa-56.github.io/ecoluxcity/wp-content/uploads/2025/04/bg2-1.jpg');
+                        }
+                    }
+                    .tong-quan .tq-image-background {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                    @media (max-width: 1200px) {
+                        .div-hide {
+                            display: none;
+                        }
+                    }
+                </style>
+                <div class="col-lg-7 w-overview p-l-10">
+                    <h2 class="section-title title-white animated revealText revealText" style="color: rgb(128 86 28);">Tổng quan</h2>
                     <div class="des-overview animated revealText delay-250">
-                        <p><i>Với tổng diện tích 489.749 m² và tổng vốn đầu tư hơn 2.147 tỷ đồng, Golden Boulevard Becamex được quy hoạch đồng bộ, hiện đại, hướng tới mục tiêu hình thành khu đô thị kiểu mẫu, đóng vai trò quan trọng trong quá trình phát triển của Thành phố mới Bình Dương – đô thị thông minh năng động và bền vững theo mô hình công nghiệp 4.0.</i></p>
+                        <p style="color: rgb(128 86 28);"><i>Với tổng diện tích 489.749 m² và tổng vốn đầu tư hơn 2.147 tỷ đồng, Golden Boulevard Becamex được quy hoạch đồng bộ, hiện đại, hướng tới mục tiêu hình thành khu đô thị kiểu mẫu, đóng vai trò quan trọng trong quá trình phát triển của Thành phố mới Bình Dương – đô thị thông minh năng động và bền vững theo mô hình công nghiệp 4.0.</i></p>
                     </div>
                     <!-- <div class="animated revealText delay-500">
                         <img class="img-responsive w-full animated revealText delay-500" src="https://misa-56.github.io/ecoluxcity/wp-content/uploads/2025/04/Logoss.png" alt="Tổng quan">
                     </div> -->
-                    <div class="content-over animated revealText delay-250">
+                    <div class="content-over animated revealText delay-250" style="color: rgb(128 86 28);">
 
                         <div class="item-overview">
                             <div class="name_over">diện tích toàn khu</div>
@@ -381,65 +449,86 @@
 
                     </div>
                 </div>
+                <style>
+                    @media (min-width: 1600px) {
+                        .p-l-10 {padding-left: 10%;}
+                    }
+                    @media (max-width: 1600px) {
+                        .p-l-10 {
+                            padding-left: 30px;
+                            padding-right: 30px;
+                        }
+                    }
+                </style>
 
             </div>
         </section>
         <!-- Vi tri -->
-        <section id="location" class=" animatedParent animateOnce  fp-auto-height-responsive fp-noscroll section-location section-light section-co opac" data-anchor="vi-tri" data-title="Vị trí dự án">
-            <div class="section-content-inner cover">
-                <div class="section-content ">
-                    <h2 class="section-title title-white animated revealText">Vị trí</h2>
-                    <div class="section-info animated revealText delay-250">
-                        <div class="subtitle"></div>
-                        <p><strong>Golden Boulevard</strong> tọa lạc trên đại lộ Lê Lợi, trung tâm thành phố mới Bình Dương, với kết nối giao thông hoàn hảo đến TPHCM và các tỉnh lân cận. Vị trí đắc địa này gần các khu công nghiệp lớn, trung tâm hành chính và thương mại, tạo tiềm năng sinh lời vượt trội </p>
+       <section class=" animatedParent animateOnce section-cover section-floor-plan fp-auto-height-responsive section-light section-co opac" data-anchor="vi-tri" data-title="Vị trí dự án" style="background: url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/gold-background-dark.jpg') center top no-repeat;">
+            <div class="relative">
+                <div class="row gutter-0  section-padding-top" style="padding-top: 50px;">
+                    <div class="col-lg-5 content-matbang" style="padding-top: unset;">
+                        <h2 class="section-title title-white animated revealText revealText">Vị trí</h2>
+                        <div class="section-info animated revealText delay-250">
+                            <div class="subtitle"></div>
+                            <p><strong>Golden Boulevard</strong> tọa lạc trên đại lộ Lê Lợi, trung tâm thành phố mới Bình Dương, với kết nối giao thông hoàn hảo đến TPHCM và các tỉnh lân cận. Vị trí đắc địa này gần các khu công nghiệp lớn, trung tâm hành chính và thương mại, tạo tiềm năng sinh lời vượt trội </p>
+                        </div>
+                        <div class="sect-lkv animated revealText delay-250">
+                            <ul class="w-col-ov">
+
+                                <li><span class="num_lkv">01</span><span class="des-lkv">PHÒNG KHÁM ĐA KHOA <br> VẠN PHÚC
+                                        1</span></li>
+
+                                <li><span class="num_lkv">02</span><span class="des-lkv">ỦY BAN NHÂN DÂN <br> PHƯỜNG HÒA
+                                        PHÚ</span></li>
+
+                                <li><span class="num_lkv">03</span><span class="des-lkv">TRƯỜNG QUỐC TẾ <br>
+                                        SINGAPORE</span></li>
+
+                                <li><span class="num_lkv">04</span><span class="des-lkv">TRƯỜNG QUỐC TẾ <br> VIỆT HOA</span>
+                                </li>
+
+                                <li><span class="num_lkv">05</span><span class="des-lkv">CHỢ <br> PHÚ CHÁNH A</span></li>
+
+                                <li><span class="num_lkv">06</span><span class="des-lkv">TRƯỜNG THCS &amp; THPT <br> NGUYỄN
+                                        KHUYẾN</span></li>
+
+                                <li><span class="num_lkv">07</span><span class="des-lkv">KHU PHỨC HỢP <br> WTC
+                                        GATEWAY</span></li>
+
+                                <li><span class="num_lkv">08</span><span class="des-lkv">TRƯỜNG TH, THCS &amp; THPT <br> NGÔ
+                                        THỜI NHIỆM</span></li>
+
+                                <li><span class="num_lkv">09</span><span class="des-lkv">TRUNG TÂM TDTT <br> THÀNH PHỐ
+                                        MỚI</span></li>
+
+                                <li><span class="num_lkv">10</span><span class="des-lkv">ĐẠI HỌC QUỐC TẾ <br> MIỀN
+                                        ĐÔNG</span></li>
+
+                                <li><span class="num_lkv">11</span><span class="des-lkv">TRƯỜNG THCS-THPT LÊ THÁNH
+                                        TÔNG</span></li>
+
+                                <li><span class="num_lkv">12</span><span class="des-lkv">CÔNG VIÊN 75HA</span></li>
+
+                                <li><span class="num_lkv">13</span><span class="des-lkv">GA METRO <br> BINH DUONG – SAIGON</span></li>
+
+                                <li><span class="num_lkv">14</span><span class="des-lkv">02 AEON MALL</span></li>
+                            </ul>
+                        </div>
+                        <!-- <div class="view-more  animated revealText delay-250"><a href="#">Xem thêm</a></div> -->
                     </div>
-                    <div class="sect-lkv animated revealText delay-250">
-                        <ul class="w-col-ov">
-
-                            <li><span class="num_lkv">01</span><span class="des-lkv">PHÒNG KHÁM ĐA KHOA <br> VẠN PHÚC
-                                    1</span></li>
-
-                            <li><span class="num_lkv">02</span><span class="des-lkv">ỦY BAN NHÂN DÂN <br> PHƯỜNG HÒA
-                                    PHÚ</span></li>
-
-                            <li><span class="num_lkv">03</span><span class="des-lkv">TRƯỜNG QUỐC TẾ <br>
-                                    SINGAPORE</span></li>
-
-                            <li><span class="num_lkv">04</span><span class="des-lkv">TRƯỜNG QUỐC TẾ <br> VIỆT HOA</span>
-                            </li>
-
-                            <li><span class="num_lkv">05</span><span class="des-lkv">CHỢ <br> PHÚ CHÁNH A</span></li>
-
-                            <li><span class="num_lkv">06</span><span class="des-lkv">TRƯỜNG THCS &amp; THPT <br> NGUYỄN
-                                    KHUYẾN</span></li>
-
-                            <li><span class="num_lkv">07</span><span class="des-lkv">KHU PHỨC HỢP <br> WTC
-                                    GATEWAY</span></li>
-
-                            <li><span class="num_lkv">08</span><span class="des-lkv">TRƯỜNG TH, THCS &amp; THPT <br> NGÔ
-                                    THỜI NHIỆM</span></li>
-
-                            <li><span class="num_lkv">09</span><span class="des-lkv">TRUNG TÂM TDTT <br> THÀNH PHỐ
-                                    MỚI</span></li>
-
-                            <li><span class="num_lkv">10</span><span class="des-lkv">ĐẠI HỌC QUỐC TẾ <br> MIỀN
-                                    ĐÔNG</span></li>
-
-                            <li><span class="num_lkv">11</span><span class="des-lkv">TRƯỜNG THCS-THPT LÊ THÁNH
-                                    TÔNG</span></li>
-
-                            <li><span class="num_lkv">12</span><span class="des-lkv">CÔNG VIÊN 75HA</span></li>
-
-                            <li><span class="num_lkv">13</span><span class="des-lkv">GA METRO <br> BINH DUONG – SAIGON</span></li>
-
-                            <li><span class="num_lkv">14</span><span class="des-lkv">02 AEON MALL</span></li>
-                        </ul>
+                    <div class="col-lg-7 cover d-flex image-location" style="align-items: center; ">
+                        <div class="image-border-view">
+                            <img class="img-responsive animated revealText delay-500" src="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/vi-tri.webp" alt="vi-tri">
+                        </div>
                     </div>
-                </div>
-                <div class="section-image-wrapper div_zindex ">
-                    <div class="section-image text-center d-block " data-w="1106" data-h="699">
-                        <img src="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/vi-tri.webp" class="map-bg img-fluid w-100 ">
-                    </div>
+                    <style>
+                        @media (min-width: 992px) {
+                            .image-location {
+                                padding-left: 20px!important;
+                            }
+                        }
+                    </style>
                 </div>
             </div>
         </section>
@@ -448,12 +537,12 @@
 	</section> -->
 
         <!-- co hoi -->
-        <section class=" animatedParent animateOnce section-cover section-opportunity fp-auto-height-responsive section-light section-co opac" data-anchor="co-hoi" data-title="Cơ hội">
+        <section class=" animatedParent animateOnce section-cover section-opportunity fp-auto-height-responsive section-light section-co opac" data-anchor="co-hoi" data-title="Cơ hội" style="background: url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/gold-background-light.jpg') center top no-repeat;">
             <div class="relative">
                 <div class="row section-padding-top">
                     <div class="col-lg-7 content-opportunity">
-                        <h2 class="section-title title-white animated revealText revealText">Nội dung đang được cập nhật</h2>
-                        <div class="des-master animated revealText delay-250">
+                        <h2 class="section-title title-white animated revealText revealText" style="color: rgb(128 86 28);">Nội dung đang được cập nhật</h2>
+                        <div class="des-master animated revealText delay-250" style="color: rgb(128 86 28);">
                             <p>Nội dung đang được cập nhật</p>
                         </div>
                         <!-- <div class="view-more  animated revealText delay-250"><a href="/co-hoi/">Xem thêm</a></div> -->
@@ -557,23 +646,58 @@
         </section>
 
         <!-- mat bang -->
-        <section class=" animatedParent animateOnce section-cover section-floor-plan fp-auto-height-responsive section-light section-co opac" data-anchor="mat-bang" data-title="Mặt bằng">
+        <section class=" animatedParent animateOnce section-cover section-floor-plan fp-auto-height-responsive section-light section-co opac" data-anchor="mat-bang" data-title="Mặt bằng" style="background: url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/gold-background-light.jpg') center top no-repeat;">
             <div class="relative">
-                <div class="row gutter-0  section-padding-top">
+                <div class="row gutter-0  section-padding-top" style="padding-top: 50px;">
                     <div class="col-lg-5 content-matbang">
-                        <h2 class="section-title title-white animated revealText revealText">Mặt bằng tổng thể
+                        <h2 class="section-title title-white animated revealText revealText" style="color: rgb(128 86 28);">Mặt bằng tổng thể
                         </h2>
                         <div class="des-master animated revealText delay-250">
-                            <p>Các công trình được bố trí tạo không gian hài hòa trong từng khu nhà, đồng bộ hợp lý về hình thức mái, số tầng, khoảng lùi giữa các dãy nhà, đồng nhất mặt đứng trên mỗi tuyến đường đô thị để tạo mỹ quan theo tuyến.</p>
-                            <p>Hình khối các mẫu nhà đơn giản nhưng kết hợp chi tiết đặc trưng, đảm bảo tính thẩm mỹ cho từng căn và toàn khu. Đường nét kiến trúc theo khuynh hướng Địa Trung Hải với thiết kế 2 mặt tiền, đường giao thông nội khu giữa hai dãy nhà, mang đến không gian sống hiện đại, thẩm mỹ, tiện nghi và riêng tư.</p>
-                            <p>Vật liệu sử dụng chủ yếu từ địa phương theo tiêu chuẩn, toàn bộ tường xây bằng gạch đất nung và vữa xi măng; ngoại thất bền vững, hiện đại như kính, khung nhôm, sắt hộp, tạo hiệu quả thẩm mỹ gần gũi, nhẹ nhàng. Thiết kế đặc biệt chú trọng cảnh quan cây xanh cho từng mẫu nhà và toàn tuyến phố, tăng cường không gian xanh, yên bình.</p>
-                            <p>Dự án bổ sung đa dạng mẫu nhà với hai loại chính: nhà 3 tầng và nhà 4 tầng, phù hợp với nhu cầu khác nhau của cư dân.</p>
+                            <p style="color: rgb(128 86 28);">Các công trình được bố trí tạo không gian hài hòa trong từng khu nhà, đồng bộ hợp lý về hình thức mái, số tầng, khoảng lùi giữa các dãy nhà, đồng nhất mặt đứng trên mỗi tuyến đường đô thị để tạo mỹ quan theo tuyến.</p>
+                            <p style="color: rgb(128 86 28);">Hình khối các mẫu nhà đơn giản nhưng kết hợp chi tiết đặc trưng, đảm bảo tính thẩm mỹ cho từng căn và toàn khu. Đường nét kiến trúc theo khuynh hướng Địa Trung Hải với thiết kế 2 mặt tiền, đường giao thông nội khu giữa hai dãy nhà, mang đến không gian sống hiện đại, thẩm mỹ, tiện nghi và riêng tư.</p>
+                            <p style="color: rgb(128 86 28);">Vật liệu sử dụng chủ yếu từ địa phương theo tiêu chuẩn, toàn bộ tường xây bằng gạch đất nung và vữa xi măng; ngoại thất bền vững, hiện đại như kính, khung nhôm, sắt hộp, tạo hiệu quả thẩm mỹ gần gũi, nhẹ nhàng. Thiết kế đặc biệt chú trọng cảnh quan cây xanh cho từng mẫu nhà và toàn tuyến phố, tăng cường không gian xanh, yên bình.</p>
+                            <p style="color: rgb(128 86 28);">Dự án bổ sung đa dạng mẫu nhà với hai loại chính: nhà 3 tầng và nhà 4 tầng, phù hợp với nhu cầu khác nhau của cư dân.</p>
                         </div>
                         <!-- <div class="view-more  animated revealText delay-250"><a href="#">Xem thêm</a></div> -->
                     </div>
                     <div class="col-lg-7 cover">
                         <div class="image-border-view">
-                            <img class="img-responsive animated revealText delay-500" src="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/golden-boulevard-bat-bang-tong-the.jpg" alt="" usemap="#view-mat-bang">
+                            <div class="swiper utilities-slide overflow-hide d-bg-ani  " data-swiper-autoplay="3000">
+                                <div class="swiper-wrapper ">
+                                    <!-- <a data-fancybox="utilities-slide" href="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/golden-boulevard-bat-bang-tong-the.jpg" class="d-block swiper-slide cover">
+                                        <div class="slide-content cover" style="background-image:url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/golden-boulevard-bat-bang-tong-the.jpg')">
+                                        </div>
+                                    </a> -->
+                                    <a data-fancybox="utilities-slide" href="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-1.png" class="d-block swiper-slide cover">
+                                        <div class="slide-content cover" style="background-image:url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-1.png')">
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="utilities-slide" href="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-2.png" class="d-block swiper-slide cover">
+                                        <div class="slide-content cover" style="background-image:url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-2.png')">
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="utilities-slide" href="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-3.png" class="d-block swiper-slide cover">
+                                        <div class="slide-content cover" style="background-image:url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-3.png')">
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="utilities-slide" href="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-4.png" class="d-block swiper-slide cover">
+                                        <div class="slide-content cover" style="background-image:url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-4.png')">
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="utilities-slide" href="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-5.png" class="d-block swiper-slide cover">
+                                        <div class="slide-content cover" style="background-image:url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-5.png')">
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="utilities-slide" href="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-6.png" class="d-block swiper-slide cover">
+                                        <div class="slide-content cover" style="background-image:url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-6.png')">
+                                        </div>
+                                    </a>
+                                    <a data-fancybox="utilities-slide" href="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-7.png" class="d-block swiper-slide cover">
+                                        <div class="slide-content cover" style="background-image:url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/mat-bang-7.png')">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -714,7 +838,7 @@
         </section>
 
         <!-- doi tac -->
-        <section id="partner" class=" animatedParent animateOnce  fp-auto-height-responsive fp-noscroll section-cover section-partner d-bg-ani section-light section-co opac cover" data-anchor="doi-tac" data-title="Đối tác">
+        <section id="partner" class=" animatedParent animateOnce  fp-auto-height-responsive fp-noscroll section-cover section-partner d-bg-ani section-light section-co opac cover" data-anchor="doi-tac" data-title="Đối tác"  style="background: url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/gold-background-light.jpg') center top no-repeat;">
             <div class="section-padding-top animated fadeInUp div_zindex">
                 <div class="container-fluid ">
                     <div class="m-both-sm">
@@ -722,19 +846,19 @@
                             <div class="witem-part  animated fadeInUpShort delay-250">
                                 <div class="item-part text-center">
                                     <div class="item">
-                                        <h3 class="section-title title-white">Chủ đầu tư</h3>
+                                        <h3 class="section-title title-white" style="color: rgb(128 86 28);">Chủ đầu tư</h3>
                                         <div class="thumbnail">
                                             <a><img src="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/becamex-tdc.png" alt="Chủ đầu tư" class="logo-tdc img-fluid"></a>
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <h3 class="section-title title-white">Tổng thầu đầu tư</h3>
+                                        <h3 class="section-title title-white" style="color: rgb(128 86 28);">Tổng thầu đầu tư</h3>
                                         <div class="thumbnail">
                                             <a><img src="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/tong-thau-xay-dung-Newtecons.jpg" alt="Phân phối độc quyền" class="logo-myland img-fluid"></a>
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <h3 class="section-title title-white">Ngân hàng hỗ trợ</h3>
+                                        <h3 class="section-title title-white" style="color: rgb(128 86 28);">Ngân hàng hỗ trợ</h3>
                                         <div class="thumbnail">
                                             <a><img src="https://misa-56.github.io/ecoluxcity/wp-content/uploads/2025/07/logo-nh.jpg" alt="Ngân hàng hỗ trợ" class=" img-fluid"></a>
                                         </div>
@@ -746,7 +870,7 @@
                         <div class="section-content-wrapper-bottom">
                             <div class="item-other ">
                                 <div class="h-part">
-                                    <h3 class="section-title title-white">PHÂN PHỐI DỰ ÁN</h3>
+                                    <h3 class="section-title title-white" style="color: rgb(128 86 28);">PHÂN PHỐI DỰ ÁN</h3>
                                 </div>
                                 <div class="swiper partner-slide  d-bg-ani" data-swiper-autoplay="2000">
                                     <!-- <div class="swiper-wrapper">
@@ -785,7 +909,7 @@
                                         </div>
 
                                     </div> -->
-                                    <p>Nội dung đang được cập nhật.</p>
+                                    <p style="color: rgb(128 86 28);">Nội dung đang được cập nhật.</p>
                                 </div>
                                 <div class="slide-control">
                                     <div class="swiper-button-prev"></div>
@@ -874,10 +998,10 @@
         </section>
 
 
-        <section id="footer" class="animatedParent animateOnce left-light fp-auto-height-responsive section-light  cover section-co opac" data-anchor="lien-he" style="" data-title="Liên hệ">
+        <section id="footer" class="animatedParent animateOnce left-light fp-auto-height-responsive section-light  cover section-co opac" data-anchor="lien-he" data-title="Liên hệ"   style="background: url('https://misa-56.github.io/golden-boulevard/images/golden-boulevard/gold-background.png') center bottom / cover no-repeat;">
             <div class="footer-top section-padding-top h-100 d-flex align-items-center">
                 <div class="container-fluid padleft">
-                    <div class="row">
+                    <div class="row" style="color: rgb(80 48 4);">
                         <div class="col-md-6 contact-info">
                             <div class="f-center">
                                 <img src="https://misa-56.github.io/golden-boulevard/images/golden-boulevard/logo.png" alt="Ngọc Quỳnh Land - Đơn vị phân phối dự án">
@@ -885,12 +1009,12 @@
                                     khu vực TP.HCM. Cam kết mang lại giá trị thực và hỗ trợ đẩy nhanh tiến độ.</div>
                                 <div class="item"><span>Địa chỉ:</span> Đường Lê Lợi, Phường Hoà Lợi, Thành phố Hồ Chí Minh </div>
                                 <div class="item"><span>Email:</span> ngocquynhland@gmail.com</div>
-                                <div class="item"><span>Hotline:</span> <a href="tel:0907290754" class="hotline-f">0907290754</a></div>
+                                <div class="item"><span>Hotline:</span> <a href="tel:0907290754" class="hotline-f" style="color: rgb(80 48 4);">0907290754</a></div>
                                 <div class="fixed-social-btn">
                                     <label class="l-social">Xem thêm tại:</label>
                                     <a href="https://zalo.me/0907290754" target="_blank" rel="noopener" class="zalo-ct"></a>
                                     <a href="https://www.m.me/quynh.ngoc.1217" target="_blank" rel="noopener" class="facebook-ct"></a>
-                                    <a href="https://www.youtube.com/@EcoluxCity" target="_blank" rel="noopener" class="youtube-ct"></a>
+                                    <!-- <a href="https://www.youtube.com/@EcoluxCity" target="_blank" rel="noopener" class="youtube-ct"></a> -->
                                     <a href="https://www.tiktok.com/@ngocquynhland" target="_blank" rel="noopener" class="tiktok-ct"></a>
                                 </div>
                             </div>
